@@ -46,9 +46,10 @@ const Projects = () => {
                 <img src={content.image} alt="..." />
                 <div className="flex flex-col gap-1 mt-2">
                   <h5 className="font-bold font-Poppins">{content.title}</h5>
-                  <button className="font-bold text-gray self-end">
-                    READ MORE
-                  </button>
+                  <p className="font-Poppins">{content.subtitle}</p>
+                  <button className="btn bg-dark_primary text-white">
+              {Projects.btnText}
+            </button>
                 </div>
               </SwiperSlide>
             ))}

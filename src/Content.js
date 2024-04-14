@@ -1,34 +1,27 @@
 // import images
 import Hero_person from "./assets/images/Hero/person.png";
 
-import figma from "./assets/images/Skills/figma.png";
-import sketch from "./assets/images/Skills/sketch.png";
-import ps from "./assets/images/Skills/ps.png";
+import java from "./assets/images/Skills/java.png";
+import mysql from "./assets/images/Skills/mysql.png";
+import php from "./assets/images/Skills/php.png";
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/node.png";
 import python from "./assets/images/Skills/python.png";
+import flutter from "./assets/images/Skills/flutter.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
 
 import project1 from "./assets/images/projects/img1.png";
-import project2 from "./assets/images/projects/img2.png";
-import project3 from "./assets/images/projects/img3.png";
 import person_project from "./assets/images/projects/person.png";
 
-import avatar1 from "./assets/images/Testimonials/avatar1.png";
-import avatar2 from "./assets/images/Testimonials/avatar2.png";
-import avatar3 from "./assets/images/Testimonials/avatar3.png";
-import avatar4 from "./assets/images/Testimonials/avatar4.png";
-
 import Hireme_person from "./assets/images/Hireme/person.png";
-import Hireme_person2 from "./assets/images/Hireme/person2.png";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
 import { MdArrowForward, MdCall } from "react-icons/md";
-import { BsInstagram } from "react-icons/bs";
+import { BsTwitter, BsGithub } from "react-icons/bs";
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
@@ -58,159 +51,160 @@ export const content = {
     },
   ],
   hero: {
-    title: "Web Developer",
-    firstName: "JOHN",
-    LastName: "ALEX",
-    btnText: "Hire Me",
+    title: "Desarrollador Web",
+    firstName: "JUAN",
+    LastName: "CHAVEZ",
+    btnText: "Contrátame",
     image: Hero_person,
     hero_content: [
       {
-        count: "8+",
-        text: "Years of Experinse in Web development",
+        count: "1+",
+        text: "Año de experiencia en desarrollo web.",
       },
       {
-        count: "20+",
-        text: "Projects Worked in my career",
+        count: "2+",
+        text: "Proyectos trabajados en mi carrera.",
       },
     ],
   },
   skills: {
-    title: "Skills",
-    subtitle: "MY TOP SKILLS",
+    title: "Habilidades",
+    subtitle: "MIS PRINCIPALES HABILIDADES",
     skills_content: [
       {
-        name: "Figma",
-        para: "Lorem ipsum text  dummy",
-        logo: figma,
+        name: "Java",
+        para: "Sólido conocimiento de los fundamentos de JAVA.",
+        logo: java,
+        description1: "Comprensión profunda de la sintaxis y la semántica del lenguaje Java.",
+        description2: "Experiencia en la creación de clases, objetos, métodos e interfaces.",
+        description3: "Familiaridad con los tipos de datos, operadores y estructuras de control.",
+        description4: "Habilidad para aplicar los principios de la programación orientada a objetos (POO)."
       },
       {
         name: "Node js",
-        para: "Lorem ipsum text  dummy",
+        para: "Sólido conocimiento de los fundamentos de Node.js.",
         logo: nodejs,
+        description1: "Familiaridad con el uso de módulos y paquetes de Node.js para diversas funcionalidades.",
+        description2: "Experiencia con el uso de herramientas de desarrollo Node.js como IDEs, compiladores y depuradores.",
+        description3: "Conocimiento de frameworks populares de Node.js como Express.",
+        description4: "Habilidad para trabajar con bases de datos relacionales y NoSQL utilizando Node.js."
       },
       {
-        name: "Adobe Photoshop",
-        para: "Lorem ipsum text  dummy",
-        logo: ps,
+        name: "PHP",
+        para: "Sólido conocimiento de los fundamentos de PHP.",
+        logo: php,
+        description1: "Comprensión profunda de la sintaxis y semántica del lenguaje PHP.",
+        description2: "Experiencia en la creación de scripts PHP para diversas tareas, incluyendo el manejo de datos, la interacción con bases de datos y el desarrollo web.",
+        description3: "Familiaridad con tipos de datos, operadores, estructuras de control y funciones.",
+        description4: "Habilidad para aplicar los principios de la programación orientada a objetos (POO) en PHP."
       },
       {
         name: "React js",
-        para: "Lorem ipsum text  dummy",
+        para: "Sólido conocimiento de los fundamentos de React.js.",
         logo: reactjs,
+        description1: "Comprensión profunda de la biblioteca React y sus componentes principales.",
+        description2: "Experiencia en la creación de interfaces de usuario (UI) declarativas y reutilizables.",
+        description3: "Familiaridad con JSX, la sintaxis de extensión de JavaScript para React.",
+        description4: "Habilidad para manejar el estado de la aplicación y las actualizaciones del DOM de manera eficiente."
       },
       {
-        name: "Sketch",
-        para: "Lorem ipsum text  dummy",
-        logo: sketch,
+        name: "MySQL",
+        para: "Sólido conocimiento de los fundamentos de MySQL.",
+        logo: mysql,
+        description1: "Comprensión profunda del modelo de datos relacional y la sintaxis del lenguaje de consulta estructurado (SQL).",
+        description2: "Experiencia en la creación, modificación y eliminación de bases de datos, tablas, columnas e índices.",
+        description3: "Familiaridad con tipos de datos, operadores, cláusulas y funciones SQL.",
+        description4: "Habilidad para escribir consultas SQL eficientes para recuperar, insertar, actualizar y eliminar datos."
       },
       {
         name: "Python",
-        para: "Lorem ipsum text  dummy",
+        para: "Sólido conocimiento de los fundamentos de Python.",
         logo: python,
+        description1: "Comprensión profunda de la sintaxis y semántica del lenguaje Python.",
+        description2: "Experiencia en la creación de scripts y programas Python para diversas tareas, incluyendo el manejo de datos, el análisis de datos y la automatización de tareas.",
+        description3: "Familiaridad con tipos de datos, operadores, estructuras de control y funciones en Python.",
+        description4: "Habilidad para aplicar los principios de la programación orientada a objetos (POO) en Python."
+      },
+      {
+        name: "Flutter",
+        para: "Sólido conocimiento de los fundamentos de Flutter.",
+        logo: flutter,
+        description1: "Comprensión profunda del framework Flutter y su arquitectura basada en widgets.",
+        description2: "Experiencia en la creación de interfaces de usuario (UI) nativas para dispositivos iOS y Android utilizando Dart.",
+        description3: "Familiaridad con los conceptos clave de Flutter como Hot Reload, State Management y Routing.",
+        description4: "Habilidad para diseñar e implementar aplicaciones móviles escalables y de alto rendimiento."
       },
     ],
     icon: MdArrowForward,
   },
   services: {
-    title: "Services",
-    subtitle: "WHAT I OFFER",
+    title: "Servicios",
+    subtitle: "LO QUE OFREZCO",
     service_content: [
       {
-        title: "Web Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Desarrollo Web",
+        para: "Ofrezco servicios profesionales de desarrollo web para crear sitios web y aplicaciones web dinámicas, modernas y de alto rendimiento.",
         logo: services_logo1,
       },
       {
         title: "ui / ux DESIGNING",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: "Ofrezco servicios profesionales de UI/UX Design para crear interfaces de usuario (UI) atractivas, intuitivas y centradas en el usuario.",
         logo: services_logo2,
       },
       {
-        title: "PhotoShop Editing",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Desarrollo Aplicaciones Móviles",
+        para: "Ofrezco servicios profesionales de desarrollo de aplicaciones móviles para crear aplicaciones innovadoras y atractivas para dispositivos iOS y Android.",
         logo: services_logo3,
       },
     ],
   },
   Projects: {
-    title: "Projects",
-    subtitle: "MY CREATION",
+    title: "Proyectos",
+    subtitle: "Mi Creación",
     image: person_project,
     project_content: [
       {
-        title: "Gym Website",
+        title: "CT Passenger, CT Driver y Panel de Control",
+        subtitle: "Desarrollo de Aplicaciones Móviles CT Passenger, CT Driver y Panel de Control para la empresa CT Corporation",
         image: project1,
-      },
-      {
-        title: "Social Media web",
-        image: project2,
-      },
-      {
-        title: "Creative Website",
-        image: project3,
-      },
-    ],
-  },
-  Testimonials: {
-    title: "Testimonials",
-    subtitle: "MY CLIENT REVIEWS",
-    testimonials_content: [
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar1,
-        name: "JOHN DOE",
-      },
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar2,
-        name: "Tom Alex",
-      },
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar3,
-        name: "Johnny",
-      },
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar4,
-        name: "ROBBIN",
+        btnText: ""
       },
     ],
   },
   Hireme: {
-    title: "Hire Me",
-    subtitle: "FOR YOUR PROJECTS",
+    title: "Contrátame",
+    subtitle: "PARA TUS PROYECTOS",
     image1: Hireme_person,
-    image2: Hireme_person2,
-    para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-    btnText: "Hire Me",
+    para: "Soy un desarrollador full-stack con experiencia en la creación de sitios web y aplicaciones web dinámicas, modernas y de alto rendimiento, así como aplicaciones móviles innovadoras y atractivas para dispositivos iOS y Android.",
+    btnText: "",
   },
   Contact: {
-    title: "Contect Me",
-    subtitle: "GET IN TOUCH",
+    title: "Contáctame",
+    subtitle: "PONERSE EN CONTACTO",
     social_media: [
       {
-        text: "codeaprogram@gmail.com",
+        text: "juan_luis_xw@hotmail.com",
         icon: GrMail,
-        link: "mailto:codeaprogram@gmail.com",
+        link: "mailto:juan_luis_xw@hotmail.com",
       },
       {
-        text: "+91 1234 56778",
+        text: "+57 3226143246",
         icon: MdCall,
-        link: "https://wa.me/1234567890",
+        link: "https://wa.me/+573226143246",
       },
       {
-        text: "codeaprogram",
-        icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
+        text: "JuanLChavezM",
+        icon: BsTwitter,
+        link: "https://twitter.com/JuanLChavezM",
+      },
+      {
+        text: "JuanLChavezM",
+        icon: BsGithub,
+        link: "https://github.com/juanlchavezm/",
       },
     ],
   },
   Footer: {
-    text: "All © Copy Right Reserved 2022",
+    text: "All © Copy Right Reserved 2024",
   },
 };
